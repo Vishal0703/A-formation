@@ -15,7 +15,7 @@ The A.cpp program uses opencv, so compile it using the command provided below.
 
 g++ -ggdb -std=c++11 `pkg-config --cflags opencv` -o `basename A.cpp .cpp` A.cpp `pkg-config --libs opencv`
 
-To compile the Plot.py function use:
+To compile the Plot.py program use:
 
 python Plot.py
 
